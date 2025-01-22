@@ -123,8 +123,7 @@ def fefo_calc_opt(demand, inventory):
                 
     inventory_calc = pd.DataFrame(calc_inv_date)
     demand_calc = pd.DataFrame(calc_dem_date)
-    return inventory_calc
-    return demand_calc
+    return demand_calc, inventory_calc
 
 
 
